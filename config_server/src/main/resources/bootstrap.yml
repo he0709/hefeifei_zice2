@@ -7,5 +7,5 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/he0709/hefeifei_zice2.git
           search-paths: config-repo
