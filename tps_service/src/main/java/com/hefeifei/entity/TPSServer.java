@@ -11,7 +11,6 @@ public class TPSServer implements Serializable {
     private Integer id;
     private Date outDate;
     private String outId;
-    private Integer tid;
     private int salary;
     private String jobNum;
     private String name;
@@ -29,7 +28,6 @@ public class TPSServer implements Serializable {
                 "id=" + id +
                 ", outDate=" + outDate +
                 ", outId='" + outId + '\'' +
-                ", tid=" + tid +
                 ", salary=" + salary +
                 ", jobNum='" + jobNum + '\'' +
                 ", name='" + name + '\'' +
@@ -65,13 +63,6 @@ public class TPSServer implements Serializable {
         this.outId = outId;
     }
 
-    public Integer getTid() {
-        return tid;
-    }
-
-    public void setTid(Integer tid) {
-        this.tid = tid;
-    }
 
     public int getSalary() {
         return salary;
