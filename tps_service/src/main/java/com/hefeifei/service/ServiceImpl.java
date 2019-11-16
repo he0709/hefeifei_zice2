@@ -31,7 +31,7 @@ public class ServiceImpl implements MyService {
                 return cb.and(arr);
             }
         };
-        Page page = tpsDao.findAll(spec, PageRequest.of(tpsVo.getPageNum() - 1, tpsVo.getPageSize()));
+        Page page = tpsDao.findAll(spec, PageRequest.of( 1, 2));
         return page;
     }
 }
